@@ -25,6 +25,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+    height: 100vh;
 }
 ol, ul {
 	list-style: none;
@@ -49,7 +50,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+ /*   align-items: center; */
     background-color: #60a9ff;
     text-align: center;
     text-transform: uppercase;
@@ -57,7 +58,7 @@ body{
 }
 .first{
     width: 1100px;
-    height: 1000px;
+    height: 1200px;
   /*  border: 2px solid blue;*/
     padding: 5px;
     padding-top: 10px;
@@ -65,8 +66,10 @@ body{
     flex-direction: row;
     justify-content: space-around;
     background-color: white;
+    flex-wrap: wrap;
     margin-top: 20px;
     border-radius: 10px;
+  
     
 }
 
