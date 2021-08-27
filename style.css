@@ -49,16 +49,19 @@ html{
 body{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+   /* justify-content: center;*/
  /*   align-items: center; */
+ 
     background-color: #60a9ff;
     text-align: center;
     text-transform: uppercase;
+    /* newly added */
+    justify-content: space-evenly;
    
 }
 .first{
     width: 1100px;
-    height: 1200px;
+    height:2200px;
   /*  border: 2px solid blue;*/
     padding: 5px;
     padding-top: 10px;
@@ -69,19 +72,23 @@ body{
     flex-wrap: wrap;
     margin-top: 20px;
     border-radius: 10px;
-  
+ 
+ /*newly added*/
+    margin-right: 3px;
     
 }
 
 .book1, .book2, .book3, .book4{
     
-    width: 220px;
+   /* width: 220px;*/
     height: 360px;
     
     /*border: 2px solid black;*/
    /* max-height: 500px;*/
     border-bottom: 1px solid #e1f1ff;
-
+  /* new added*/
+  width:300px;
+  margin:30px 0;
 }
 
 img{
@@ -115,7 +122,7 @@ span{
     margin-bottom: 20px;
 }
 
-a{
+.pricing-btn{
     border:1px solid #9dd1ff;
     border-radius: 10px;
     padding: 5px 5px;
@@ -124,6 +131,24 @@ a{
     transition:background-color 200ms ease-in-out;
 }
 
-a:hover ,a:focus {
+.pricing-btn:hover, .pricing-btn:focus {
     background-color: #e1f1ff;
+}
+
+/* newly added */
+.content{
+    width:200px;
+    margin-right: 10px;
+}
+.opt{
+    font-size: large;
+
+}
+a{
+    text-decoration: none;
+    color:#888;
+}
+h1{
+    font-size: larger;
+    font-weight: 600;
 }
